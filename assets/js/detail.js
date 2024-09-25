@@ -159,7 +159,7 @@ const addSuggestedMovies = function ({ results: movieList},
 
         movieListElem.innerHTML =`
         <div class="title-wrapper">
-            <h3 class="title-large">You May Also Like</h3>
+            <h3 class="title-large">Tonton Juga</h3>
         </div>
 
         <div class="slider-list">
