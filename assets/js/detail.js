@@ -120,7 +120,7 @@ fetchDataFromServer(`https://api.themoviedb.org/3/movie/${movieId}?api_key=${api
             </div>
 
             <div class="title-wrapper">
-                <h3 class="title-large">Trailers and Clips</h3>
+                <h3 class="title-large">Watch Movies</h3>
             </div>
 
             <div class="slider-list">
