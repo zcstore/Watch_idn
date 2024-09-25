@@ -107,12 +107,12 @@ fetchDataFromServer(`https://api.themoviedb.org/3/movie/${movieId}?api_key=${api
                 <ul class="detail-list">
 
                     <div class="list-item">
-                        <p class="list-name">Starring :</p>
+                        <p class="list-name">Pemain :</p>
                         <p>${getCasts(cast)}</p>
                     </div>
 
                     <div class="list-item">
-                        <p class="list-name">Directed By :</p>
+                        <p class="list-name">Penerbit :</p>
                         <p>${getDirectors(crew)}</p>
                     </div>
 
@@ -120,7 +120,7 @@ fetchDataFromServer(`https://api.themoviedb.org/3/movie/${movieId}?api_key=${api
             </div>
 
             <div class="title-wrapper">
-                <h3 class="title-large">Watch Movies</h3>
+                <h3 class="title-large">Tonton Videos</h3>
             </div>
 
             <div class="slider-list">
@@ -155,11 +155,11 @@ const addSuggestedMovies = function ({ results: movieList},
 
         const movieListElem = document.createElement("section");
         movieListElem.classList.add("movie-list");
-        movieListElem.ariaLabel = "Tonton Juga";
+        movieListElem.ariaLabel = "Rekomendasi Untuk Anda";
 
         movieListElem.innerHTML =`
         <div class="title-wrapper">
-            <h3 class="title-large">Tonton Juga</h3>
+            <h3 class="title-large">Rekomendasi Untuk Anda</h3>
         </div>
 
         <div class="slider-list">
