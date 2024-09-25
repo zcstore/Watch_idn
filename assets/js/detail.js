@@ -155,7 +155,7 @@ const addSuggestedMovies = function ({ results: movieList},
 
         const movieListElem = document.createElement("section");
         movieListElem.classList.add("movie-list");
-        movieListElem.ariaLabel = "You May Also Like";
+        movieListElem.ariaLabel = "Tonton Juga";
 
         movieListElem.innerHTML =`
         <div class="title-wrapper">
