@@ -21,15 +21,15 @@ sidebar();
 
 const homePageSections = [
     {
-        title: "Upcoming Movies",
+        title: "Spesial Buat Kamu",
         path: "/movie/upcoming"
     },
     {
-        title:  "This Week\'s Trending Movies",
+        title:  "Trending Minggu Ini",
         path: "/trending/movie/week"
     }, 
     {
-        title:  "Top Rated Movies",
+        title:  "Trending Di IDNs Flix",
         path: "/movie/top_rated"
     },
 ]
